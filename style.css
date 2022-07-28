@@ -16,10 +16,28 @@
         font-weight: 600;
     }
     .carousel-caption p{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
     }
     .carousel-caption button{
         height: 30px;
+        font-size: 12px;
     }
+    .work-image{
+        width: 334px;
+        height: 274px;
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    .work-image{
+        width: 334px;
+        height: 550px;
+    }
+    .work-blog h1{
+        font-size: 30px;
+    }
+    .work-blog p{
+        font-size: 16px;
+    }
+
 }
