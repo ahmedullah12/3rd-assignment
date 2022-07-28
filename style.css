@@ -1,17 +1,21 @@
+/* custom style */
 .carousel-item img{
     filter: brightness(60%);
 }
 .bg-blog{
     background-color: #F4FAFD;
 }
+/* slight responsive for desktop */
 @media only screen and (min-width: 992px) {
     .carousel-caption{
         position: absolute;
         top: 40%;
     }
 }
+/* slight responsive for mobile */
 @media only screen and (max-width: 688px) {
     .carousel-caption h1{
+        margin: 5px;
         font-size: 18px;
         font-weight: 600;
     }
@@ -28,6 +32,7 @@
         height: 274px;
     }
 }
+/* slight responsive for tablet or ipad */
 @media only screen and (min-width: 689px) and (max-width: 992px){
     .work-image{
         width: 334px;
