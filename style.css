@@ -1,0 +1,25 @@
+.carousel-item img{
+    filter: brightness(60%);
+}
+.bg-blog{
+    background-color: #F4FAFD;
+}
+@media only screen and (min-width: 992px) {
+    .carousel-caption{
+        position: absolute;
+        top: 40%;
+    }
+}
+@media only screen and (max-width: 688px) {
+    .carousel-caption h1{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .carousel-caption button{
+        height: 30px;
+    }
+}
